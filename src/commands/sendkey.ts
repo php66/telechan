@@ -6,7 +6,7 @@ const replyToMessage = (ctx: any, messageId: string, string: string) =>
   ctx.reply(string, {
     reply_to_message_id: messageId,
   });
-
+/*
 const sendkey = () => (ctx: any) => {
 
   const messageId = ctx.message.message_id;
@@ -22,3 +22,4 @@ const sendkey = () => (ctx: any) => {
 };
 
 export { sendkey };
+*/
